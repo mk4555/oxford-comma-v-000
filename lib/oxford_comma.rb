@@ -10,6 +10,6 @@ def oxford_comma(array)
   elsif array.size == 1
     ans += array[0]
   elsif array.size == 2
-    ans += array[0] + ", and " + array[1]
+    ans += array[0] + " and " + array[1]
   end
 end
