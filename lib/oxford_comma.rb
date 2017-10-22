@@ -7,4 +7,5 @@ def oxford_comma(array)
       counter += 1
     end
   end
+  ans += "and " + array[array.size-1]
 end
